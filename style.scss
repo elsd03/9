@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+.conteyner{
+    display: flex;
+    
+    height: 685px;
+
+    .left{
+        width: 70%;
+        display: flex;
+        background-image: url(WhatsApp\ Image\ 2023-10-22\ at\ 00.56.00_59dd4744.jpg);
+        background-repeat: no-repeat;
+        align-items:first baseline;
+        p{
+            a{
+                    text-decoration: none;
+                    color: black;
+                   margin-left: 50px;
+            }
+        }
+        h1{
+            a{
+                    text-decoration: none;
+                    color: black;
+                   margin-left: 50px;
+            }
+        }
+    }
+    .rihgt{
+         display: flex;
+        }
+        
+        .head{
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width: 18%;
+               
+            }
+        }
+            p{
+                a{
+                        text-decoration: none;
+                        color: black;
+                        align-items: first baseline;
+                        margin-left: 30px;
+                        
+                }
+            }
+        }
+
+        .body{
+            margin: 0 auto;
+            align-items: center;    
+            margin-left: 18px;
+            margin-top: 60%;
+           
+        }
+        h5{
+            .under{
+                text-decoration: underline;
+            }
+        }   
