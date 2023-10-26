@@ -28,10 +28,7 @@ body {
 }
 .conteyner .head {
   display: flex;
-  justify-content: space-evenly;
-}
-.conteyner .head img {
-  width: 18%;
+  padding: 0px 0px 0px 50px;
 }
 .conteyner p a {
   text-decoration: none;
@@ -47,6 +44,14 @@ body {
   margin-top: 60%;
 }
 
-h5 .under {
+h5 {
+  color: darkgray;
+}
+
+i {
+  margin-left: 18px;
+}
+
+.under {
   text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

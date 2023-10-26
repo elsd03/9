@@ -27,17 +27,14 @@ body{
             }
         }
     }
+
     .rihgt{
          display: flex;
         }
         
         .head{
             display: flex;
-            justify-content: space-evenly;
-            img{
-                width: 18%;
-               
-            }
+            padding: 0px 0px 0px 50px;
         }
             p{
                 a{
@@ -58,7 +55,23 @@ body{
            
         }
         h5{
-            .under{
-                text-decoration: underline;
-            }
-        }   
+            color: darkgray;
+            
+        }  
+        i{
+            margin-left:18px;
+        } 
+        .under{
+            text-decoration: underline;
+        }
+        
+        // @media(max-width:900px){
+        //    .rihgt{
+        //     .head{
+        //         flex-direction: column;
+        //     }
+        //     .body{
+        //     position: relative;
+        //     }
+        //    }
+        // }
